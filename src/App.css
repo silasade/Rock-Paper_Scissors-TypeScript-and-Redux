@@ -437,5 +437,24 @@ button{
   
 }
 @media(max-width:350px){
+  .scissors{
+    padding: 2%;
 
+    left: 74%;
+    top: 37%;
+
+  }
+  .paper{
+   padding: 2%;
+    left: 3%;
+    top: 37%;
+    
+  }
+  .rock{
+    padding: 2%;
+
+    left: 38%;
+    top: 70%;
+    
+  }
 }
