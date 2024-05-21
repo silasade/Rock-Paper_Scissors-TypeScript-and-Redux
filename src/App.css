@@ -248,6 +248,88 @@ button{
    
   }
 }
+@media(max-width:1350px){
+  .scissors{
+    position: sticky;
+    left: 750px;
+    top: 219px;
+    background-color: white;
+    padding: 1%;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: hsl(40, 84%, 53%);
+  }
+  .paper{
+    position: sticky;
+    left: 420px;
+    top: 219px;
+    background-color: white;
+    padding: 1%;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: hsl(230, 89%, 65%);
+  }
+  .rock{
+    position: sticky;
+    left: 600px;
+    top: 500px;
+    background-color: white;
+    padding: 1%;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: hsl(349, 70%, 56%);
+  }
+  .button{
+    position: absolute;
+    top: 85%;
+    left: 80%;
+   
+  }
+}
+@media(max-width:1280px){
+  .scissors{
+    position: fixed;
+    left: 710px;
+    top: 225px;
+    background-color: white;
+    padding: 1%;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: hsl(40, 84%, 53%);
+  }
+  .paper{
+    position: fixed;
+    left: 420px;
+    top: 225px;
+    background-color: white;
+    padding: 1%;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: hsl(230, 89%, 65%);
+  }
+  .rock{
+    position: fixed;
+    left: 560px;
+    top: 500px;
+    background-color: white;
+    padding: 1%;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: hsl(349, 70%, 56%);
+  }
+  .button{
+    position: absolute;
+    top: 85%;
+    left: 80%;
+   
+  }
+}
 @media(max-width:1024px){
   .game{
     height: 250px;
@@ -298,9 +380,12 @@ button{
     width: 85%;
     
   }
+  .game{
+    height: 300px;
+  }
   .scissors{
     position: fixed;
-    left: 550px;
+    left: 500px;
     top: 182px;
     background-color: white;
     padding: 3%;
@@ -311,7 +396,7 @@ button{
   }
   .paper{
     position: fixed;
-    left: 220px;
+    left: 240px;
     top: 182px;
     background-color: white;
     padding: 3%;
@@ -323,7 +408,7 @@ button{
   .rock{
     position: fixed;
     left: 380px;
-    top: 482px;
+    top: 452px;
     background-color: white;
     padding: 3%;
     border-radius: 100%;
@@ -458,8 +543,8 @@ button{
   }
   .scissors{
     position: fixed;
-    left: 420px;
-    top: 162px;
+    left: 330px;
+    top: 142px;
     background-color: white;
     padding: 1.5%;
     border-radius: 100%;
@@ -469,8 +554,8 @@ button{
   }
   .paper{
     position: fixed;
-    left: 10px;
-    top: 162px;
+    left: 100px;
+    top: 142px;
     background-color: white;
     padding: 1.5%;
     border-radius: 100%;
@@ -481,7 +566,7 @@ button{
   .rock{
     position: fixed;
     left: 220px;
-    top: 550px;
+    top: 350px;
     background-color: white;
     padding: 1.5%;
     border-radius: 100%;
@@ -619,8 +704,8 @@ button{
   }
   .scissors{
     position: fixed;
-    left: 300px;
-    top: 210px;
+    left: 250px;
+    top: 150px;
     background-color: white;
     padding: 1.5%;
     border-radius: 100%;
@@ -630,8 +715,8 @@ button{
   }
   .paper{
     position: fixed;
-    left: 5px;
-    top: 210px;
+    left: 10px;
+    top: 150px;
     background-color: white;
     padding: 1.5%;
     border-radius: 100%;
@@ -642,7 +727,7 @@ button{
   .rock{
     position: fixed;
     left: 150px;
-    top: 500px;
+    top: 350px;
     background-color: white;
     padding: 1.5%;
     border-radius: 100%;
