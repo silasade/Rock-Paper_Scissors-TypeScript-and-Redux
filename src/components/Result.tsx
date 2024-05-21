@@ -65,7 +65,7 @@ const Result = () => {
                 </div>
             </div>
             <div>
-                <h3 className="statement" style={{color:"white"}}>{statement}</h3>
+                <h3 className="statement" style={{color:"white", textAlign:"center"}}>{statement}</h3>
                 <button className="playAgain" onClick={() => navigate('/')}>Play Again</button>
             </div>
             <div className="two">
