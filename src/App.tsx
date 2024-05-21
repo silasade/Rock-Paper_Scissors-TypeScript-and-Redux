@@ -24,7 +24,7 @@ function App() {
           <Route path='/result' element={<Result/>}/>
       </Routes>
       <div className="button">
-        <button onClick={handleRules}>RULES</button>
+        <button className='butt' onClick={handleRules}>RULES</button>
       </div>
       <Rules show={show} onHide={handleRules} />
 

@@ -40,7 +40,7 @@ const Result = () => {
         borderColor: userSelect.type==="ROCK"? "hsl(349, 71%, 52%)":userSelect.type==="PAPER"?"hsl(230, 89%, 62%)":"hsl(39, 89%, 49%)"
     }
     const style1={
-        borderColor: getRandom.type==="ROCK"? "hsl(349, 71%, 52%)":userSelect.type==="PAPER"?"hsl(230, 89%, 62%)":"hsl(39, 89%, 49%)"
+        borderColor: getRandom.type==="ROCK"? "hsl(349, 71%, 52%)":getRandom.type==="PAPER"?"hsl(230, 89%, 62%)":"hsl(39, 89%, 49%)"
     }
     function getTypeById(id: number): string {
         switch (id) {
