@@ -622,6 +622,9 @@ button{
     width: 95%;
     
   }
+  .button{
+    left: 65%;
+  }
     .image{
       background-color: white;
       padding: 3px;
@@ -738,7 +741,7 @@ button{
   .button{
     position: absolute;
     top: 80%;
-    left: 75%;
+    left: 65%;
    
   }
   
