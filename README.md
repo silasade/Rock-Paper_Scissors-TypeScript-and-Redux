@@ -6,7 +6,7 @@ A simple web app that allows the user to play the game "Rock/Paper?Scissors" wit
   Some of its features includes:
   1. Allows the user to play the game "Rock/Paper/Scissors" with the computer if the user wins he/she gains one points.
 ## Live
-Visit the Live website [https://rock-paper-scissors-type-script-and-redux.vercel.app/)
+Visit the [Live website](https://rock-paper-scissors-type-script-and-redux.vercel.app/)
 
 ### `Installation`
   To run the project locally, follow the following steps:
